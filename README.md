@@ -19,7 +19,7 @@ The PNG renderer uses the PHP GD extension.
 
 ## Requirements
 
-- PHP 8.1 or newer
+- PHP 8.5 or newer
 - GD extension
 
 ## Installation
