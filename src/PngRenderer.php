@@ -76,7 +76,6 @@ final class PngRenderer
         ob_start();
         imagepng($image, null, 9);
         $png = ob_get_clean();
-        imagedestroy($image);
 
         if (!is_string($png)) {
             throw new RuntimeException('Unable to render PNG image.');
