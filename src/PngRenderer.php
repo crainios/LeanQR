@@ -31,7 +31,7 @@ final class PngRenderer
         $label = $this->normalizeLabel($label);
         $labelWidth = $label !== null ? imagefontwidth($font) * strlen($label) : 0;
         $labelHeight = $label !== null ? imagefontheight($font) : 0;
-        $labelPadding = $label !== null ? max(8, $scale * 2) : 0;
+        $labelPadding = $label !== null ? 4 : 0;
 
         $width = max($qrSize, $labelWidth + 16);
         $height = $qrSize + $labelPadding + $labelHeight;
