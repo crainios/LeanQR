@@ -28,12 +28,6 @@ The PNG renderer uses the PHP GD extension.
 composer require crainios/leanqr
 ```
 
-During local development before the package is published on Packagist:
-
-```bash
-composer install
-```
-
 ## Basic usage
 
 ```php
